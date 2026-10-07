@@ -1,10 +1,10 @@
 VERSION 5.7 ;
 BUSBITCHARS "[]" ;
 DIVIDERCHAR "/" ;
-MACRO Neuromorphic_X1_wb
+MACRO Neuromorphic_X2_wb
   CLASS BLOCK ;
   ORIGIN 0 0 ;
-  FOREIGN Neuromorphic_X1_wb 0 0 ;
+  FOREIGN Neuromorphic_X2_wb 0 0 ;
   SIZE 1910 BY 2010.14 ;
   PIN wbs_we_i
     DIRECTION INPUT ;
@@ -2564,6 +2564,6 @@ MACRO Neuromorphic_X1_wb
     LAYER met4 ;
       RECT 491.305 1312.925 689.2 1405.225 ;
   END
-END Neuromorphic_X1_wb
+END Neuromorphic_X2_wb
 
 END LIBRARY
